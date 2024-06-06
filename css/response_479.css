@@ -1,0 +1,131 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 48px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head.pad_r
+    {
+        padding-right: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data .name
+    {
+        font-size: 14px;
+    }
+
+
+    .first_section .data .name img
+    {
+        height: 20px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 92px;
+    }
+
+
+    .first_section .data .title small
+    {
+        font-size: 72px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .data .desc img
+    {
+        height: 14px;
+    }
+
+
+
+    .first_section .advantages .sep
+    {
+        display: none !important;
+    }
+
+
+    .first_section .advantages .item
+    {
+        width: 100%;
+    }
+
+    .first_section .advantages .item ~ .item
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .first_section .person
+    {
+        width: 360px;
+    }
+
+
+    .first_section .person img
+    {
+        width: 360px;
+    }
+
+
+    .first_section .person .info
+    {
+        bottom: 80px;
+        left: 24px;
+    }
+
+
+
+    /*--------------
+        Programs
+    --------------*/
+    .programs .program .thumb
+    {
+        height: 124px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .block_head
+    {
+        text-align: center;
+    }
+
+
+    .reviews .swiper-slide
+    {
+        width: 220px;
+    }
+}

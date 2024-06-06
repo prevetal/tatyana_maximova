@@ -1,0 +1,189 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 60px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 100px;
+        padding-top: 68px;
+        padding-bottom: 0;
+    }
+
+
+    .first_section:after
+    {
+        display: none;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .data .name
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .data .name img
+    {
+        height: 22px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 120px;
+    }
+
+
+    .first_section .data .title small
+    {
+        font-size: 92px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .data .desc img
+    {
+        height: 16px;
+    }
+
+
+    .first_section .data .btn
+    {
+        font-size: 18px;
+
+        width: 360px;
+        height: 80px;
+    }
+
+
+
+    .first_section .advantages
+    {
+        margin-top: 0;
+        padding: 40px 24px;
+    }
+
+
+    .first_section .advantages .row
+    {
+        justify-content: center;
+    }
+
+
+    .first_section .advantages .row > *:nth-child(6)
+    {
+        display: none;
+    }
+
+    .first_section .advantages .row > *:nth-child(6) ~ *
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .advantages .item
+    {
+        width: 220px;
+    }
+
+
+
+    .first_section .person
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 600px;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .first_section .person img
+    {
+        width: 600px;
+        height: auto;
+    }
+
+
+    .first_section .person .info
+    {
+        bottom: 208px;
+        left: 108px;
+    }
+
+
+    .first_section .bg
+    {
+        display: none;
+    }
+
+
+    .first_section .bg.mob
+    {
+        display: block;
+    }
+
+
+
+    /*--------------
+        Programs
+    --------------*/
+    .programs .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .data
+    {
+        width: 400px;
+    }
+
+
+    .feedback .bg
+    {
+        width: 1000px;
+        height: auto;
+        margin-left: -740px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 40px;
+    }
+}

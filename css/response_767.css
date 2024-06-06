@@ -1,0 +1,244 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 52px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 36px;
+    }
+
+
+    .swiper-button-next img,
+    .swiper-button-prev img
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 70px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head.pad_r
+    {
+        padding-right: 152px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 40px;
+    }
+
+
+    .first_section .data .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .first_section .data .name img
+    {
+        height: 21px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 100px;
+    }
+
+
+    .first_section .data .title small
+    {
+        font-size: 76px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .data .desc img
+    {
+        height: 14px;
+    }
+
+
+    .first_section .data .btn
+    {
+        height: 72px;
+        margin-top: 48px;
+    }
+
+
+
+    .first_section .advantages .row > *:nth-child(4),
+    .first_section .advantages .row > *:nth-child(8)
+    {
+        display: none;
+    }
+
+    .first_section .advantages .row > *:nth-child(6)
+    {
+        display: block;
+    }
+
+    .first_section .advantages .row > *:nth-child(4) ~ *
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .advantages .sep
+    {
+        margin: 0 auto;
+    }
+
+
+    .first_section .advantages .item
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    .first_section .person
+    {
+        width: 400px;
+    }
+
+
+    .first_section .person img
+    {
+        width: 400px;
+    }
+
+
+    .first_section .person .info
+    {
+        bottom: 100px;
+        left: 36px;
+
+        transform: scale(.5);
+    }
+
+
+
+    /*--------------
+        Programs
+    --------------*/
+    .programs .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+
+    .programs .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .programs .program .thumb
+    {
+        height: 144px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+
+    .reviews .review .icon img
+    {
+        width: 20px;
+        height: 24px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .feedback .data
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .feedback .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .feedback .bg
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 150%;
+        height: auto;
+        margin: 24px -25% 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        height: 24px;
+    }
+
+
+    footer .socials img
+    {
+        width: 52px;
+        height: 52px;
+    }
+}

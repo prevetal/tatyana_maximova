@@ -1,0 +1,351 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 80px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 72px;
+        height: 72px;
+        margin-bottom: 44px;
+    }
+
+
+    .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 96px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 44px;
+    }
+
+    .block_head.pad_r
+    {
+        padding-right: 224px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .field .icon
+    {
+        left: 40px;
+    }
+
+
+    .form .input
+    {
+        height: 100px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 100px;
+    }
+
+
+    .form .submit_btn:after
+    {
+        transform: scale(.8);
+    }
+
+
+    .form .agree
+    {
+        font-size: 18px;
+
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 100px;
+        padding-bottom: 160px;
+    }
+
+
+    .first_section:after
+    {
+        height: 120px;
+    }
+
+
+    .first_section .data
+    {
+        width: 680px;
+    }
+
+
+    .first_section .data .name
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .data .name img
+    {
+        height: 25px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 160px;
+    }
+
+
+    .first_section .data .title small
+    {
+        font-size: 120px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 24px;
+
+        margin-top: 16px;
+    }
+
+
+    .first_section .data .desc img
+    {
+        height: 20px;
+    }
+
+
+    .first_section .data .btn
+    {
+        width: 440px;
+        height: 104px;
+        margin-top: 68px;
+    }
+
+
+    .first_section .data .btn:before
+    {
+        right: -80px;
+
+        transform: scale(.8);
+    }
+
+
+    .first_section .data .btn:after
+    {
+        left: -40px;
+
+        transform: scale(.8);
+    }
+
+
+
+    .first_section .advantages
+    {
+        margin-top: 120px;
+        padding: 32px 24px;
+    }
+
+
+    .first_section .advantages .item
+    {
+        min-height: 100px;
+    }
+
+
+    .first_section .advantages .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    .first_section .person
+    {
+        top: 24px;
+
+        margin-left: -744px;
+    }
+
+
+    .first_section .person img
+    {
+        width: 800px;
+        height: 972px;
+    }
+
+
+    .first_section .person .info
+    {
+        bottom: 324px;
+        left: 208px;
+
+        transform: scale(.8);
+    }
+
+
+
+    /*--------------
+        Programs
+    --------------*/
+    .programs
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .programs .program .thumb
+    {
+        height: 144px;
+        margin-bottom: 20px;
+    }
+
+
+    .programs .program .name
+    {
+        font-size: 40px;
+    }
+
+
+    .programs .program .desc
+    {
+        font-size: 18px;
+
+        margin-top: 12px;
+        padding-bottom: 40px;
+    }
+
+
+    .programs .program .btn
+    {
+        height: 80px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .reviews .review .icon
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .reviews .review .icon img
+    {
+        width: 25px;
+        height: 30px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        margin-bottom: 160px;
+    }
+
+
+    .feedback .data
+    {
+        width: 552px;
+        padding-top: 40px;
+    }
+
+
+    .feedback .desc
+    {
+        font-size: 22px;
+
+        margin-top: 16px;
+    }
+
+
+    .feedback .form
+    {
+        width: 440px;
+    }
+
+
+    .feedback .bg
+    {
+        top: -120px;
+
+        margin-left: -880px;
+    }
+
+
+    .feedback .bg2
+    {
+        top: -120px;
+        right: -80px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        font-size: 18px;
+    }
+
+
+    footer .socials
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 18px;
+    }
+}

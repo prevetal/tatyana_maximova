@@ -1,0 +1,371 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 68px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 40px;
+    }
+
+
+    .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 84px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .block_head.pad_r
+    {
+        padding-right: 220px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .field .icon
+    {
+        left: 32px;
+    }
+
+
+    .form .input
+    {
+        font-size: 20px;
+
+        height: 80px;
+        padding-left: 67px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 20px;
+
+        height: 80px;
+    }
+
+
+    .form .submit_btn:after
+    {
+        transform: scale(.7);
+    }
+
+
+    .form .agree
+    {
+        font-size: 16px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 0;
+        padding-top: 80px;
+        padding-bottom: 140px;
+    }
+
+
+    .first_section:after
+    {
+        height: 100px;
+    }
+
+
+    .first_section .data
+    {
+        width: 512px;
+    }
+
+
+    .first_section .data .name
+    {
+        font-size: 17px;
+    }
+
+
+    .first_section .data .name img
+    {
+        height: 23px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 132px;
+    }
+
+
+    .first_section .data .title small
+    {
+        font-size: 100px;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .first_section .data .desc img
+    {
+        height: 18px;
+    }
+
+
+    .first_section .data .btn
+    {
+        font-size: 20px;
+
+        width: 400px;
+        height: 92px;
+        margin-top: 60px;
+    }
+
+
+    .first_section .data .btn:before
+    {
+        transform: scale(.7);
+    }
+
+
+    .first_section .data .btn:after
+    {
+        left: -80px;
+
+        transform: scale(.7);
+    }
+
+
+
+    .first_section .advantages
+    {
+        margin-top: 100px;
+        padding: 24px;
+    }
+
+
+    .first_section .advantages .sep
+    {
+        height: 88px;
+    }
+
+
+    .first_section .advantages .item
+    {
+        min-height: 92px;
+    }
+
+
+    .first_section .advantages .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    .first_section .person
+    {
+        top: 40px;
+
+        margin-left: -600px;
+    }
+
+
+    .first_section .person img
+    {
+        width: 640px;
+        height: 778px;
+    }
+
+
+    .first_section .person .info
+    {
+        bottom: 228px;
+        left: 128px;
+
+        transform: scale(.7);
+    }
+
+
+
+    /*--------------
+        Programs
+    --------------*/
+    .programs
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .programs .program .thumb
+    {
+        height: 100px;
+    }
+
+
+    .programs .program .name
+    {
+        font-size: 36px;
+    }
+
+
+    .programs .program .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .programs .program .btn
+    {
+        font-size: 18px;
+
+        height: 68px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .reviews .review .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .reviews .review .icon img
+    {
+        width: 22px;
+        height: 26px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .feedback .data
+    {
+        width: 448px;
+    }
+
+
+    .feedback .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .feedback .form
+    {
+        width: 340px;
+    }
+
+
+    .feedback .bg
+    {
+        top: -100px;
+
+        width: 1100px;
+        height: 821px;
+        margin-left: -760px;
+    }
+
+
+    .feedback .bg2
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+
+    footer .logo img
+    {
+        height: 30px;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        font-size: 16px;
+    }
+
+
+    footer .socials img
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 16px;
+    }
+}
